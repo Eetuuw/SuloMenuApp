@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sulon ruokalista</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Hae Sulo Telitien ruokalista</h1>
+    </div>
+    <div class="dayDiv">
+      <h2>Maanantai</h2>
+      <button onClick="playDay(0)">
+        Play
+        <i class="fa fa-play" style="font-size: 13px"></i>
+      </button>
+    </div>
+    <div class="dayDiv">
+      <h2>Tiistai</h2>
+      <button onClick="playDay(1)">
+        Play
+        <i class="fa fa-play" style="font-size: 13px"></i>
+      </button>
+    </div>
+    <div class="dayDiv">
+      <h2>Keskiviikko</h2>
+      <button onClick="playDay(2)">
+        Play
+        <i class="fa fa-play" style="font-size: 13px"></i>
+      </button>
+    </div>
+    <div class="dayDiv">
+      <h2>Torstai</h2>
+      <button onClick="playDay(3)">
+        Play
+        <i class="fa fa-play" style="font-size: 13px"></i>
+      </button>
+    </div>
+    <div class="dayDiv">
+      <h2>Perjantai</h2>
+      <button onClick="playDay(4)">
+        Play
+        <i class="fa fa-play" style="font-size: 13px"></i>
+      </button>
+    </div>
+    <button class="stopBtn" onClick="pause()">
+      <i class="fa fa-stop" style="font-size: 13px"></i> Stop
+    </button>
+    <p>psssst. Konsolissa ruokalista kirjoitettuna</p>
+    <script src="./suloruoka.js"></script>
+  </body>
+</html>

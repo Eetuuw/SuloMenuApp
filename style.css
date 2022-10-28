@@ -1,0 +1,16 @@
+.dayDiv {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  height: 25px;
+}
+
+.stopBtn {
+  width: 200px;
+  height: 50px;
+}
